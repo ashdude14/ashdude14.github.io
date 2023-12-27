@@ -8,8 +8,8 @@ function Footer() {
         <div className="container">
           <div className="footerc">
             <h3>
-              Copyright © {new Date().getFullYear()}. All rights are reserved
-               <br/> Author - Aashish Kumar Singh
+              Copyright © {new Date().getFullYear()}. All rights are reserved.
+               <br/> Author - Aashish Kumar Singh.
             </h3>
            
             <div className="footerc__socials">

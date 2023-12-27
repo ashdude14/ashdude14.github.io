@@ -1,26 +1,71 @@
 import { useState } from "react";
 //import "../dist/styles.css";
-//import { IconMenu2, IconX } from "@tabler/icons-react";
-
+import { IconMenu2, IconX } from "@tabler/icons-react";
+//import { FaBeer, FaCoffee } from 'react-icons/fa';
 function Navbar() {
- 
-    return <nav>
-        <h4 className="logo"><b>@ashdude14</b></h4>
+  const [hamburger, setHamburger] = useState(false);
+
+  const hamburgerMenu = () => {
+    setHamburger(!hamburger);
+  };
+
+  const pageUp = () => {
+    window.scrollTo({ top: (0, 0), behavior: "smooth" });
+  };
+
+  const navlinks = [
+    {
+      name: "Home",
+      link: "#home",
+    },
+    {
+      name: "About",
+      link: "#about",
+    },
+    {
+      name: "Projects",
+      link: "#projects",
+    },
+    {
+      name: "Contact",
+      link: "#contact",
+    },
+  ];
+
+  return (
+    <>
+      <nav>
+        <h3 onClick={pageUp} className="logo">
+          Stefan.dev
+        </h3>
         <ul>
-            <l1>
-                <a href="#home"> Home </a>
-            </l1>
-            <l1>
-                <a href="#about"> About </a>
-            </l1>
-            <l1>
-                <a href="#projects">Projects </a>
-            </l1>
-            <l1>
-                <a href="#contact"> Contact </a>
-            </l1>
+          {navlinks.map((item) => (
+            <li key={item.name}>
+              <a href={item.link}>{item.name}</a>
+            </li>
+          ))}
+          <li onClick={() => hamburgerMenu()}>
+            <IconMenu2 className="mobile-menu" width={30} height={30} />
+          </li>
         </ul>
-    </nav>
+      </nav>
+
+      {/* mobile nav */}
+      <div className={`mobile-nav ${hamburger ? "open-menu" : "closed-menu"}`}>
+        <span onClick={() => hamburgerMenu()}>
+          <IconX width={30} height={30} />
+        </span>
+
+        <ul>
+          {navlinks.map((item) => (
+            <li key={item.name} onClick={() => hamburgerMenu()}>
+              <a href={item.link}>{item.name}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
+  );
 }
 
 export default Navbar;
