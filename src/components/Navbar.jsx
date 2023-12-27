@@ -36,7 +36,7 @@ function Navbar() {
     <>
       <nav>
         <h3 onClick={pageUp} className="logo">
-          Stefan.dev
+          @ashdude14
         </h3>
         <ul>
           {navlinks.map((item) => (
