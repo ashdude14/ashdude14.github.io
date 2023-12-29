@@ -536,31 +536,6 @@ nav ul a:hover {
   }
 }
 
-.work-emoji {
-  position: absolute;
-  z-index: 10;
-  width: 6rem !important;
-  bottom: 35px;
-  right: 98px;
-}
-@media (max-width: 1020px) {
-  .work-emoji {
-    bottom: 25px;
-    right: 245px;
-  }
-}
-@media (max-width: 880px) {
-  .work-emoji {
-    bottom: 57px;
-    right: 156px;
-  }
-}
-@media (max-width: 750px) {
-  .work-emoji {
-    display: none;
-  }
-}
-
 .project {
   background-color: #f9f9f9;
   padding: 15rem 0;
@@ -653,6 +628,8 @@ nav ul a:hover {
   text-align: center;
   justify-content: center;
 }
+
+
 @media (max-width: 1020px) {
   .projects-grid .pro__text {
     margin: 0 auto;
@@ -670,15 +647,24 @@ nav ul a:hover {
   right: -19px;
 }
 .projects-grid .pro__text h3 {
-  font-size: 1.7rem;
+  display: flex;
+  font-size: 17px;
   text-transform: uppercase;
   color: #2d2e32;
+  font-weight: bold;
   margin-bottom: 2rem;
   position: relative;
-  display: flex;
+
   justify-content: center;
   align-items: center;
   gap: 0.2rem;
+  
+}
+.projects-grid .pro__text span {
+  color: #2d2e32;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .projects-grid .pro__text p {
   font-size: 1.7rem;
@@ -687,6 +673,7 @@ nav ul a:hover {
   text-transform: none;
   font-weight: 500;
 }
+
 
 .stack {
   display: flex;
