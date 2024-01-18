@@ -37,7 +37,7 @@ body {
 
 *::-webkit-scrollbar-track {
   border-radius: 20px;
-  background-color: #ffffff;
+  background-color: #141212;
 }
 
 *::-webkit-scrollbar-track:hover {
@@ -622,7 +622,7 @@ nav ul a:hover {
 }
 .projects-grid .pro__text {
   display: flex;
-  width: 30rem;
+  width: 35rem;
   height: auto;
   flex-direction: column;
   text-align: center;
@@ -865,4 +865,4 @@ footer h3 {
 .footerc__socials a:hover {
   transform: scale(1.2);
   transition: all 0.2s ease-in-out;
-}/*# sourceMappingURL=styles.css.map */
+}
