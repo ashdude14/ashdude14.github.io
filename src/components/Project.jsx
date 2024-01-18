@@ -1,4 +1,3 @@
-import portfolio from "../images/portfolio.png"
 import ProBox from "./ProBox";
 import disney2 from "../images/disney2.jpg"
 
