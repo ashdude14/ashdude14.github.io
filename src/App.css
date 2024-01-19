@@ -1028,4 +1028,7 @@ body.dark footer {
 .dark ul a {
   color : white;
 }
+.dark .text-side h3 {
+  color: green;
+}
 /* Rest of your existing CSS code */
