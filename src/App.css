@@ -14,10 +14,6 @@ body {
   font-family: "Poppins", sans-serif;
   position: relative;
 }
-body.dark-mode {
-  background-color: #141212; /* Dark background color */
-  color: #ffffff; /* Dark font color */
-}
 .container {
   max-width: 107rem;
   margin: 0 auto;
@@ -889,3 +885,146 @@ footer h3 {
     /* Add any other styles you want for the mobile screen */
   }
 }
+
+/* Dark mode styles */
+.dark {
+  /* Update background color and text color for dark mode */
+  background-color: #1a1a1a;
+  color: #ffffff;
+
+  /* Add more dark mode styles as needed */
+}
+
+.dark nav {
+  /* Example: customize navigation styles for dark mode */
+  background-color:#363062;
+  color: #f9f9f9;
+  
+}
+.dark label {
+  color: #f9f9f9;
+}
+
+
+.dark nav ul a {
+  color :#ffffff;
+}
+.dark nav ul a:hover{
+  color:#147efb
+}
+/* ... (continue with other dark mode styles) ... */
+
+.dark .mobile-nav,
+.dark .about,
+.dark .project,
+.dark .contact,
+.dark footer {
+  /* Update background colors for specific sections in dark mode */
+  background-color: #141212;
+}
+
+.dark nav,
+.dark .project-content p,
+.dark .projects-grid,
+.dark .project-content h3,
+.dark .skills p,
+.dark .contact__title p,
+.dark .contact__info h3,
+.dark .contact__info a,
+.dark .contact__info p,
+.dark footer h3 {
+  /* Update text colors for specific elements in dark mode */
+  color:white,
+}
+.dark footer {
+  background-color: #363062;
+}
+.dark  h3,
+.dark h4,
+.dark p, 
+.dark h2 {
+  color: white;
+}
+.dark .pro__text {
+  border: #363062;
+  color: white;
+}
+:root {
+  --background-light: #ffffff;
+  --background-dark: #1a1a1a;
+  --text-light: #2d2e32;
+  --text-dark: #ffffff;
+  --link-light: #147efb;
+  --link-dark: #147efb;
+  --border-color-light: rgba(45, 46, 50, 0.5);
+  --border-color-dark: rgba(255, 255, 255, 0.5);
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--text-light);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+/*...........................................................................................*/
+
+/* Dark mode styles */
+body.dark nav {
+  background-color: #363062;
+  color: #f9f9f9;
+}
+
+body.dark label {
+  color: #f9f9f9;
+}
+
+body.dark nav ul a {
+  color: var(--text-dark);
+}
+
+body.dark nav ul a:hover {
+  color: var(--link-dark);
+}
+
+body.dark .mobile-nav,
+body.dark .about,
+body.dark .project,
+body.dark .contact,
+body.dark footer {
+  background-color: #141212;
+}
+
+body.dark .project-content p,
+body.dark .projects-grid,
+body.dark .project-content h3,
+body.dark .skills p,
+body.dark .contact__title p,
+body.dark .contact__info h3,
+body.dark .contact__info a,
+body.dark .contact__info p,
+body.dark footer h3 {
+  color: var(--text-dark);
+}
+
+body.dark footer {
+  background-color: #363062;
+}
+
+body.dark h3,
+body.dark h4,
+body.dark p,
+body.dark h2 {
+  color: var(--text-dark);
+}
+
+body.dark .pro__text {
+  border: #363062;
+  color: var(--text-dark);
+}
+
+/* Rest of your existing CSS code */

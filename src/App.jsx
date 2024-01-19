@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import"bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
@@ -11,6 +11,9 @@ import { ThemeContext, useTheme } from "./context/themeContext";
 
 function App() {
   const { theme,toggleTheme} =useTheme();
+  useEffect(()=>{
+   
+  },[theme])
   return (
     <ThemeContext.Provider value={{theme,toggleTheme}}>
     <div className={`App ${theme}`}>

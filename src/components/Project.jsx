@@ -35,7 +35,7 @@ function Projects() {
                 Componets that we completed -
                 created a login/signup page to authenticate user with the help of
                 fireBase. Created a Home page, Navigation bar, and dynamic 
-                poster recommendations using TheMovieDB API endpoints."
+                poster recommendations using TheMovieDB API endpoints.[updating(live) soon!]"
                 techno1="React & FireBase"
                 techno2="Tailwind-CSS"
                 code="https://github.com/ashdude14/netflix-clone"
