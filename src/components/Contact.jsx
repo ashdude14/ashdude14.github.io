@@ -1,5 +1,5 @@
 //import { IconMail, IconMapSearch } from "@tabler/icons-react";
-import { FaSearch , FaInstagram,FaEnvelope  } from "react-icons/fa";
+import { FaSearch , FaInstagram,FaEnvelope, FaLinkedin  } from "react-icons/fa";
 function Contact() {
   return (
     <>
@@ -35,12 +35,12 @@ function Contact() {
 
               <div className="contact__icon-box">
                 <span>
-                <FaInstagram size={32} color="purple" />
+                <FaLinkedin size={32} color="blue" />
                 </span>
                 <div className="contact__info">
-                  <h3>Instagram</h3>
-                  <a href="https://www.instagram.com/ashdude14/">
-                   ashdude14
+                  <h3>linkedIn</h3>
+                  <a href="https://www.linkedin.com/in/aashish-kumar-singh-499241164/">
+                   Aashish Kumar Singh
                   </a>
                 </div>
               </div>
