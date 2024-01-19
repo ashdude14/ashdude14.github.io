@@ -1021,7 +1021,8 @@ body.dark footer {
 .dark .contact {
   background-color:cadetblue;
 }
+
 .dark a {
-  color: #f9f9f9;
+  color: black;
 }
 /* Rest of your existing CSS code */
