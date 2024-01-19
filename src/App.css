@@ -1025,4 +1025,7 @@ body.dark footer {
 .dark a {
   color: black;
 }
+.dark ul a {
+  color : white;
+}
 /* Rest of your existing CSS code */
