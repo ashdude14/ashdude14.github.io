@@ -983,9 +983,7 @@ body.dark label {
   color: #f9f9f9;
 }
 
-body.dark nav ul a {
-  color: var(--text-dark);
-}
+
 
 body.dark nav ul a:hover {
   color: var(--link-dark);
@@ -994,7 +992,6 @@ body.dark nav ul a:hover {
 body.dark .mobile-nav,
 body.dark .about,
 body.dark .project,
-body.dark .contact,
 body.dark footer {
   background-color: #141212;
 }
@@ -1003,10 +1000,6 @@ body.dark .project-content p,
 body.dark .projects-grid,
 body.dark .project-content h3,
 body.dark .skills p,
-body.dark .contact__title p,
-body.dark .contact__info h3,
-body.dark .contact__info a,
-body.dark .contact__info p,
 body.dark footer h3 {
   color: var(--text-dark);
 }
@@ -1015,16 +1008,20 @@ body.dark footer {
   background-color: #363062;
 }
 
-body.dark h3,
-body.dark h4,
-body.dark p,
-body.dark h2 {
-  color: var(--text-dark);
-}
 
-body.dark .pro__text {
-  border: #363062;
-  color: var(--text-dark);
-}
 
+
+.dark  section {
+  background-color: #05a2d7;
+}
+.dark .about
+ {
+  background-color: #305a62;
+}
+.dark .contact {
+  background-color:cadetblue;
+}
+.dark a {
+  color: #f9f9f9;
+}
 /* Rest of your existing CSS code */
