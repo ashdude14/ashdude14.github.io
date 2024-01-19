@@ -14,7 +14,10 @@ body {
   font-family: "Poppins", sans-serif;
   position: relative;
 }
-
+body.dark-mode {
+  background-color: #141212; /* Dark background color */
+  color: #ffffff; /* Dark font color */
+}
 .container {
   max-width: 107rem;
   margin: 0 auto;
@@ -151,7 +154,18 @@ nav ul {
   list-style: none;
   gap: 2rem;
 }
+nav label{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
 nav ul a {
+  color: #2d2e32;
+  text-decoration: none;
+  transition: all 0.23s;
+  font-weight: 600;
+}
+nav label {
   color: #2d2e32;
   text-decoration: none;
   transition: all 0.23s;
@@ -865,4 +879,13 @@ footer h3 {
 .footerc__socials a:hover {
   transform: scale(1.2);
   transition: all 0.2s ease-in-out;
+}
+@media (max-width: 900px) {
+  .switch {
+    /* Your mobile-specific styles go here */
+    /* For example: */
+    font-size: 1rem;
+    color: rgb(1, 10, 183);
+    /* Add any other styles you want for the mobile screen */
+  }
 }

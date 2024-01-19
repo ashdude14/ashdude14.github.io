@@ -1,10 +1,15 @@
 import { useState } from "react";
 //import "../dist/styles.css";
+import Switch from "react-switch"
 import { IconMenu2, IconX } from "@tabler/icons-react";
-//import { FaBeer, FaCoffee } from 'react-icons/fa';
+import { useTheme } from "../context/themeContext";
+import React from "react";
+import ReactSwitch from "react-switch";
+
 function Navbar() {
   const [hamburger, setHamburger] = useState(false);
-
+  const { theme, toggleTheme } = useTheme();
+ 
   const hamburgerMenu = () => {
     setHamburger(!hamburger);
   };
@@ -35,9 +40,10 @@ function Navbar() {
   return (
     <>
       <nav>
-        <h3 onClick={pageUp} className="logo">
-          @ashdude14
-        </h3>
+      <div  className="switch">
+      <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+      <label>{theme === "light" ? "light mode" : "dark mode"} </label>
+      </div>
         <ul>
           {navlinks.map((item) => (
             <li key={item.name}>
