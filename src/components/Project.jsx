@@ -1,6 +1,6 @@
 import ProBox from "./ProBox";
 import disney2 from "../images/disney2.jpg"
-
+import netflix from "../assets/netflix.jpg" ///home/aashish/FullStack/Portfolio/portfolio/src/assets/netflix.png
 function Projects() {
   return (
     <>
@@ -21,7 +21,7 @@ function Projects() {
                 techno2="TailwindCSS"
                 code="https://github.com/ashdude14/disney-clone"
                 demo="https://disney-clone-mu-three.vercel.app/"
-                scrollY="-50%"
+                scrollY="-25%"
                 icon="📺"
               />    
 
@@ -29,18 +29,18 @@ function Projects() {
 
                <ProBox
                 title="NETFLIX CLONE"
-                img = {"image"}
+                img = {netflix}
                 date="(JUL 2023)"
                 description="NetFlix clone using React,  Tailwind-CSS, FireBase.
                 Componets that we completed -
                 created a login/signup page to authenticate user with the help of
                 fireBase. Created a Home page, Navigation bar, and dynamic 
-                poster recommendations using TheMovieDB API endpoints.[updating(live) soon!]"
+                poster recommendations using TheMovieDB API endpoints."
                 techno1="React & FireBase"
                 techno2="Tailwind-CSS"
                 code="https://github.com/ashdude14/netflix-clone"
-                demo="https://github.com/ashdude14/netflix-clone"
-                scrollY="-50%"
+                demo="https://react-netflix-7f8fe.web.app"
+                scrollY="0%"
                 icon="🌐"
               />      
           

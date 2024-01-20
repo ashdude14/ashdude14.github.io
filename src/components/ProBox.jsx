@@ -25,7 +25,7 @@ function ProBox({
               alt="website"
               style={{
                 transform: scroll ? `translateY(${scrollY})` : "translateY(0%)",
-                transition: "transform 10s ease-in-out",
+                transition: "transform 7s ease-in-out",
               }}
               onMouseEnter={() => setScroll(true)}
               onMouseLeave={() => setScroll(false)}
