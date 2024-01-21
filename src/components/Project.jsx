@@ -45,7 +45,23 @@ function Projects() {
               />      
           
 
-               
+
+        
+          <ProBox
+                title="Video Conference App"
+                img = {"img"}
+                date="(SEP 2023)"
+                description="Implementation of a 
+                video conferencing application resembling a simplified version of Zoom,
+                 built using React, TypeScript, and WebRTC. [Updating soon...] "
+                techno1="React & WebRTC"
+                techno2="Tailwind-CSS"
+                code="https://github.com/ashdude14/"
+                demo="https://github.com/ashdude14/"
+                scrollY="-76%"
+                icon="🌐"
+              />      
+
 
 
             </div>
