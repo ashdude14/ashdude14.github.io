@@ -56,7 +56,7 @@ function Projects() {
                  built using React, TypeScript, and WebRTC. [Updating soon...] "
                 techno1="React & WebRTC"
                 techno2="Tailwind-CSS"
-                code="https://github.com/ashdude14/"
+                code="https://github.com/ashdude14/kingChat"
                 demo="https://github.com/ashdude14/"
                 scrollY="-76%"
                 icon="🌐"
