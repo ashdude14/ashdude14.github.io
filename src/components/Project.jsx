@@ -48,7 +48,7 @@ function Projects() {
 
         
           <ProBox
-                title="Video Conference App"
+                title="kingChat"
                 img = {"img"}
                 date="(SEP 2023)"
                 description="Implementation of a 
