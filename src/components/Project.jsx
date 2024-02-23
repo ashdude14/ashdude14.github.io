@@ -11,7 +11,7 @@ function Projects() {
             <h3>Each project is a learning of development 🧩</h3>
             <div className="projects-grid">
               <ProBox
-                title="Disney Clone "
+                title="Disney UI Clone "
                 img = {disney2}
                 date="(May 2023)"
                 description="Disney webApp clone using react, vite, tailwind-css
@@ -28,7 +28,7 @@ function Projects() {
   
 
                <ProBox
-                title="NETFLIX CLONE"
+                title="NETFLIX UI CLONE"
                 img = {netflix}
                 date="(JUL 2023)"
                 description="NetFlix clone using React,  Tailwind-CSS, FireBase.

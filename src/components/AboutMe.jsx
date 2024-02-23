@@ -15,21 +15,18 @@ function AboutMe() {
             <div className="text-side">
               <h3>About me</h3>
               <h4>
-                A dedicated Front-end Developer <br /> based in Bihar, India
+                A dedicated Full-Stack Developer <br /> based in Bihar, India
                 📍
               </h4>
               <p>
-                I possess an impressive arsenal
-                of skills in HTML, CSS, JavaScript, React, Express, and SCSS. I
-                excel in designing and maintaining responsive websites that
-                offer a smooth user experience. My expertise lies in crafting
+                My expertise lies in crafting
                 dynamic, engaging interfaces through writing clean and optimized
                 code and utilizing cutting-edge development tools and
-                techniques. I am also a team player who thrives in collaborating
-                with cross-functional teams to produce outstanding web
+                techniques. Being a full-stack allows me to not only develop client-facing apps and websites but also develop it with cutting edge backend support.
+
+I specialize in building robust backends that do all the heavy lifting for your app or website. I love designing systems that are light yet powerful, distributed yet synchronized and beautiful yet effective.
                 applications.
-                I am 2021 graduate in Bachelor Of Technology with Computer Science & 
-                Engineering major from Guru Ghasidas University, Bilaspur, Chhattisgarh, India. 
+                
               </p>
             </div>
           </div>

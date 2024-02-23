@@ -30,10 +30,10 @@ function Hero() {
           <div className="content">
             <div className="hero-main">
               <div className="hero-text">
-                <h1>Front-End React Developer</h1>
+                <h1>Full Stack Web Developer</h1>
                 <img src={waving} alt="waving_hand" />
                 <p>
-                  Hi, I'm Aashish Kumar Singh. A passionate Front-end React
+                  Hi, I am Aashish Kumar Singh. A passionate Full-Stack
                   Developer based in Bihar, India. 📍
                 </p>
                 <span>
