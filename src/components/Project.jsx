@@ -48,16 +48,21 @@ function Projects() {
 
         
           <ProBox
-                title="kingChat"
+                title="DEPLOYMENT PIPELINE"
                 img = {"img"}
-                date="(SEP 2023)"
-                description="Implementation of a 
-                video conferencing application resembling a simplified version of Zoom,
-                 built using React, TypeScript, and WebRTC. [Updating soon...] "
-                techno1="React & WebRTC"
-                techno2="Tailwind-CSS"
-                code="https://github.com/ashdude14/kingChat"
-                demo="https://github.com/ashdude14/"
+                date="(DEC 2023)"
+                description="This project is about creating deployment link of React
+                project using AWS services like s3 for storing static file,
+                ecr to register Docker container, ecs to spin the
+                container using FARGATE
+                Takes github repository url of react project
+                and deploy it with url, user can access project using the
+                url.
+                "
+                techno1="NodeJs & AWS"
+                techno2="Docker, Redis & Kafka"
+                code="https://github.com/ashdude14/deployment-pipeline-webapp"
+                demo="https://github.com/ashdude14/deployment-pipeline-webapp"
                 scrollY="-76%"
                 icon="🌐"
               />      
