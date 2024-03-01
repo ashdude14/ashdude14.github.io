@@ -1,6 +1,8 @@
 import ProBox from "./ProBox";
 import disney2 from "../images/disney2.jpg"
 import netflix from "../assets/netflix.jpg" ///home/aashish/FullStack/Portfolio/portfolio/src/assets/netflix.png
+//import url from "../assets/url.png" 
+import url1 from "../assets/url1.jpg" 
 function Projects() {
   return (
     <>
@@ -11,7 +13,7 @@ function Projects() {
             <h3>Each project is a learning of development 🧩</h3>
             <div className="projects-grid">
               <ProBox
-                title="Disney UI Clone "
+                title="Disney UI "
                 img = {disney2}
                 date="(May 2023)"
                 description="Disney webApp clone using react, vite, tailwind-css
@@ -21,14 +23,14 @@ function Projects() {
                 techno2="TailwindCSS"
                 code="https://github.com/ashdude14/disney-clone"
                 demo="https://disney-clone-mu-three.vercel.app/"
-                scrollY="-25%"
+                scrollY="0%"
                 icon="📺"
               />    
 
   
 
                <ProBox
-                title="NETFLIX UI CLONE"
+                title="NETFLIX UI "
                 img = {netflix}
                 date="(JUL 2023)"
                 description="NetFlix clone using React,  Tailwind-CSS, FireBase.
@@ -41,10 +43,26 @@ function Projects() {
                 code="https://github.com/ashdude14/netflix-clone"
                 demo="https://react-netflix-7f8fe.web.app"
                 scrollY="0%"
-                icon="🌐"
+                icon="📺"
               />      
           
-
+   
+          <ProBox
+                title="Short URL Generator"
+                img = {url1}
+                date="(DEC 2023)"
+                description="
+                URL shortener, comprises a backend server deployed on vercer and frontend. 
+                The backend involves creating APIs for various HTTP requests. Backend functionalities include receiving long URLs and generating short ones.
+                The frontend provides user interface. 
+              "
+                techno1="React, Tailwind-Css"
+                techno2="NodeJS, MongoDb"
+                code="https://github.com/ashdude14/urlShortener"
+                demo="https://url-shortener-wwz6.vercel.app/"
+                scrollY="-30%"
+                icon="🌟"
+              />   
 
         
           <ProBox
@@ -66,8 +84,8 @@ function Projects() {
                 scrollY="-76%"
                 icon="🌐"
               />      
-
-
+   
+          
 
             </div>
           </div>
